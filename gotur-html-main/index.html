@@ -66,10 +66,13 @@
                 </ul><!-- /.list-unstyled top-one__info -->
                 <div class="top-one__right">
                     <div class="top-one__language-sort">
-                        <select class="selectpicker" aria-label="Language">
-                            <option selected>Bahasa Indonesia</option>
-                            <option value="1">English</option>
-                        </select>
+                        <div id="google_translate_element" style="margin-top: 10px;"></div>
+                        <script type="text/javascript">
+                        function googleTranslateElementInit() {
+                          new google.translate.TranslateElement({pageLanguage: 'id', includedLanguages: 'en,ar', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                        }
+                        </script>
+                        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
                     </div>
                     <div class="top-one__social">
                         <a href="https://facebook.com"> <i class="icon-facebook" aria-hidden="true"></i> <span class="sr-only">Facebook</span></a>
@@ -94,7 +97,7 @@
                         <ul class="main-menu__list">
 
                             <li class="dropdown megamenu">
-                                <a href="index.html">Home</a>
+                                <a href="index.html">Beranda</a>
                                 <ul>
                                     <li>
                                         <section class="home-showcase">
@@ -169,11 +172,11 @@
 
 
                             <li>
-                                <a href="about.html">about us</a>
+                                <a href="about.html">Tentang Kami</a>
                             </li>
 
                             <li class="dropdown">
-                                <a href="#">Destination</a>
+                                <a href="#">Destinasi</a>
                                 <ul>
                                     <li class="dropdown">
                                         <a href="destination-one.html">destination 01</a>
@@ -233,7 +236,7 @@
                             </li>
 
                             <li class="dropdown">
-                                <a href="#">pages</a>
+                                <a href="#">Halaman</a>
                                 <ul>
                                     <li><a href="team.html">Our Team</a></li>
                                     <li><a href="team-carousel.html">Team Carousel</a></li>
@@ -311,7 +314,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact.html">Kontak</a>
                             </li>
                         </ul>
                     </nav><!-- /.main-header__nav -->
@@ -320,7 +323,7 @@
                             <a href="#" class="search-toggler main-header__info__item"> <i class="icon-search-interface-symbol" aria-hidden="true"></i> <span class="sr-only">Search</span> </a>
                             <a href="cart.html" class="main-header__info__item"> <i class="icon-shopping-carts" aria-hidden="true"></i> <span class="sr-only">Cart</span> </a>
                         </div>
-                        <a href="contact.html" class="gotur-btn main-header__btn">get in touch <i class="icon-paper-plane"></i></a>
+                        <a href="contact.html" class="gotur-btn main-header__btn">Hubungi Kami <i class="icon-paper-plane"></i></a>
                         <div class="main-header__call">
                             <div class="main-header__call__icon">
                                 <i class="icon-telephone"></i>
@@ -364,7 +367,7 @@
                                     <div class="main-slider-two__content">
                                         <h5 class="main-slider-two__sub-title">Explore Worlds</h5><!-- slider-sub-title -->
                                         <h2 class="main-slider-two__title">
-                                            Exploring Beautiful <br> Destinations
+                                            Sahabat Perjalanan <br> Ibadah & Liburan Anda
                                             <span class="main-slider-two__title__overlay-group">
                                                 <span class="main-slider-two__title__overlay"></span>
                                                 <span class="main-slider-two__title__overlay"></span>
@@ -406,7 +409,7 @@
                                     <div class="main-slider-two__content">
                                         <h5 class="main-slider-two__sub-title">Explore Worlds</h5><!-- slider-sub-title -->
                                         <h2 class="main-slider-two__title">
-                                            Exploring Beautiful <br> Destinations
+                                            Sahabat Perjalanan <br> Ibadah & Liburan Anda
                                             <span class="main-slider-two__title__overlay-group">
                                                 <span class="main-slider-two__title__overlay"></span>
                                                 <span class="main-slider-two__title__overlay"></span>
@@ -448,7 +451,7 @@
                                     <div class="main-slider-two__content">
                                         <h5 class="main-slider-two__sub-title">Explore Worlds</h5><!-- slider-sub-title -->
                                         <h2 class="main-slider-two__title">
-                                            Exploring Beautiful <br> Destinations
+                                            Sahabat Perjalanan <br> Ibadah & Liburan Anda
                                             <span class="main-slider-two__title__overlay-group">
                                                 <span class="main-slider-two__title__overlay"></span>
                                                 <span class="main-slider-two__title__overlay"></span>
@@ -626,7 +629,7 @@
                     <div class="col-lg-7">
                         <div class="about-five__right">
                             <div class="sec-title ">
-                                <h6 class="sec-title__tagline bw-split-in-right">About DD Travel</h6><!-- /.sec-title__tagline -->
+                                <h6 class="sec-title__tagline bw-split-in-right">Tentang DD Travel</h6><!-- /.sec-title__tagline -->
                                 <h3 class="sec-title__title bw-split-in-left">Experience The Mew <span>Adventure</span> With Us</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <p class="about-five__top__text wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='300ms'>It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point.</p><!-- /.about-five__top__text -->
@@ -1821,7 +1824,7 @@
                                 <div class="cta-three__form wow fadeInLeft" data-wow-duration='1500ms' data-wow-delay='500ms'>
                                     <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
                                         <div class="form-group__form">
-                                            <input type="email" name="EMAIL" placeholder="Your email address">
+                                            <input type="email" name="EMAIL" placeholder="Your Alamat Email">
                                             <button type="submit" class="gotur-btn"><span class="icon-right-arrow"></span></button>
                                         </div><!-- /.form-group -->
                                     </form><!-- /.footer-widget__newsletter mc-form -->
@@ -1976,7 +1979,7 @@
                     <div class="row gutter-y-40">
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                             <div class="footer-widget footer-widget--about">
-                                <h2 class="footer-widget__title">about DD Travel</h2><!-- /.footer-widget__title -->
+                                <h2 class="footer-widget__title">Tentang DD Travel</h2><!-- /.footer-widget__title -->
                                 <p class="footer-widget__about-text">available, but the majority have suffered alteration in some form by injected humour, or</p><!-- /.footer-widget__about-text -->
                                 <div class="footer-widget__social">
                                     <a href="https://facebook.com"> <i class="icon-facebook" aria-hidden="true"></i> <span class="sr-only">Facebook</span></a>
@@ -2002,10 +2005,10 @@
 
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms">
                             <div class="footer-widget footer-widget--post">
-                                <h2 class="footer-widget__title">useful links</h2><!-- /.footer-widget__title -->
+                                <h2 class="footer-widget__title">Tautan Berguna</h2><!-- /.footer-widget__title -->
                                 <ul class="list-unstyled footer-widget__links">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="destination-one.html">Destination</a></li>
+                                    <li><a href="about.html">Tentang Kami</a></li>
+                                    <li><a href="destination-one.html">Destinasi</a></li>
                                     <li><a href="blog-grid.html">News & blog</a></li>
                                     <li><a href="team.html">Meet the Guide</a></li>
                                     <li><a href="contact.html">Contacts</a></li>
@@ -2019,7 +2022,7 @@
                                 <p class="footer-widget__contact-text">Sign up to searing weekly newsletter to get the latest updates.</p><!-- /.footer-widget__about-text -->
                                 <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
                                     <div class="form-group__form">
-                                        <input type="email" name="EMAIL" placeholder="Your email address">
+                                        <input type="email" name="EMAIL" placeholder="Your Alamat Email">
                                         <button type="submit" class="gotur-btn"><span class="icon-right-arrow"></span></button>
                                     </div><!-- /.form-group -->
                                     <div class="form-group__check">
@@ -2146,7 +2149,7 @@
                     <h3 class="header-right-sidebar__container__title">get notification</h3>
                     <form action="#" data-url="MAILCHIMP_FORM_URL" class="newsletter-box mc-form">
                         <input type="email" name="EMAIL" placeholder="Email">
-                        <button type="submit" class="gotur-btn gotur-btn--base">subscribe now</button>
+                        <button type="submit" class="gotur-btn gotur-btn--base">Berlangganan</button>
                     </form>
                     <div class="mc-form__response"></div>
                 </div>
