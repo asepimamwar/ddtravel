@@ -13600,9 +13600,15 @@ a + .listing-card-four__btns__hover {
   bottom: 0;
   left: 0;
   z-index: 1;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
 }
 .testimonials-three__thumb img {
   clip-path: polygon(80% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
+  max-height: 100%;
+  object-fit: cover;
+  width: auto;
 }
 .testimonials-three::after {
   content: "";
