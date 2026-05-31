@@ -5219,10 +5219,7 @@ body.megamenu-popup-active .mobile-nav__content {
     display: none;
   }
 }
-.main-slider-one__element-one {
-  position: absolute;
-  top: 25%;
-  left: 37%;
+.main-slider-one__element-one { position: absolute; top: 15%; left: 75%; opacity: 0.5;
   animation: topToBottomTwo 3s ease-in-out infinite;
   z-index: -1;
 }
