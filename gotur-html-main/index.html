@@ -1365,7 +1365,7 @@
                     <div class="col-xl-6">
                         <div class="testimonials-three__top">
                             <div class="testimonials-three__thumb wow fadeInLeft" data-wow-duration='1500ms' data-wow-delay='400ms'>
-                                <img src="assets/images/resources/testi--3-1.jpg?v=2" alt="DD Travel image">
+                                <img src="assets/images/resources/testi--3-1.jpg?v=2" alt="DD Travel image" style="max-height: 600px; width: auto; object-fit: contain;">
                             </div><!-- /.testimonials-three__thumb -->
                             <div class="testimonials-three__bottom__nav">
                                 <button class="testimonials-three__carousel__nav--left"><span class="icon-arrow-left"></span></button>
@@ -1852,8 +1852,8 @@
                             <li>
                                 <div class="footer-widget__list__icon"><i class="icon-clock-1"></i></div><!-- /.footer-widget__list__icon -->
                                 <div class="footer-widget__list__content">
-                                    <span class="footer-widget__list__subtitle">opening time</span>
-                                    <p>Hours: Mon-Fri: 8am – 7pm</p>
+                                    <span class="footer-widget__list__subtitle">Jam Operasional</span>
+                                    <p>Waktu: Senin-Jumat: 8 pagi – 7 malam</p>
                                 </div><!-- /.footer-widget__list__content -->
                             </li>
                         </ul><!-- /.list-unstyled -->
@@ -1880,40 +1880,39 @@
                             <div class="footer-widget footer-widget--links">
                                 <h2 class="footer-widget__title">Destinasi</h2><!-- /.footer-widget__title -->
                                 <ul class="list-unstyled footer-widget__links">
-                                    <li><a href="destination-details.html">South America</a></li>
-                                    <li><a href="destination-details.html">Middle East</a></li>
-                                    <li><a href="destination-details.html">San Franc Rica</a></li>
-                                    <li><a href="destination-details.html">New York</a></li>
-                                    <li><a href="destination-details.html">Tokyo</a></li>
+                                    <li><a href="destination-details.html">Nusantara</a></li>
+                                    <li><a href="destination-details.html">Wisata Halal</a></li>
+                                    <li><a href="destination-details.html">Makkah & Madinah</a></li>
+                                    <li><a href="destination-details.html">Turki</a></li>
                                 </ul><!-- /.list-unstyled footer-widget__links -->
                             </div><!-- /.footer-widget -->
                         </div><!-- /.col-lg-4 -->
 
                         <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms">
                             <div class="footer-widget footer-widget--post">
-                                <h2 class="footer-widget__title">useful links</h2><!-- /.footer-widget__title -->
+                                <h2 class="footer-widget__title">Tautan Berguna</h2><!-- /.footer-widget__title -->
                                 <ul class="list-unstyled footer-widget__links">
-                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="about.html">Tentang Kami</a></li>
                                     <li><a href="destination-one.html">Destinasi</a></li>
-                                    <li><a href="blog-grid.html">News & blog</a></li>
-                                    <li><a href="team.html">Meet the Guide</a></li>
-                                    <li><a href="contact.html">Contacts</a></li>
+                                    <li><a href="blog-grid.html">Berita & Blog</a></li>
+                                    <li><a href="team.html">Tim Kami</a></li>
+                                    <li><a href="contact.html">Kontak</a></li>
                                 </ul><!-- /.list-unstyled footer-widget__links -->
                             </div><!-- /.footer-widget -->
                         </div><!-- /.col-lg-6 -->
 
                         <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
                             <div class="footer-widget footer-widget--contact">
-                                <h2 class="footer-widget__title">Newsletter</h2><!-- /.footer-widget__title -->
-                                <p class="footer-widget__contact-text">Sign up to searing weekly newsletter to get the latest updates.</p><!-- /.footer-widget__about-text -->
+                                <h2 class="footer-widget__title">Buletin</h2><!-- /.footer-widget__title -->
+                                <p class="footer-widget__contact-text">Daftar untuk menerima pembaruan terbaru dari kami setiap pekannya.</p><!-- /.footer-widget__about-text -->
                                 <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
                                     <div class="form-group__form">
-                                        <input type="email" name="EMAIL" placeholder="Your email address">
+                                        <input type="email" name="EMAIL" placeholder="Alamat email Anda">
                                         <button type="submit" class="gotur-btn"><span class="icon-right-arrow"></span></button>
                                     </div><!-- /.form-group -->
                                     <div class="form-group__check">
                                         <input type="checkbox" name="checkbox" id="check">
-                                        <label for="check">I agree to the <a href="faq.html">Privacy Policy.</a></label>
+                                        <label for="check">Saya setuju dengan <a href="faq.html">Kebijakan Privasi.</a></label>
                                     </div><!-- /.form-group -->
                                 </form><!-- /.footer-widget__newsletter mc-form -->
                                 <div class="mc-form__response"></div><!-- /.mc-form__response -->
@@ -2078,6 +2077,33 @@
 
     <!-- template js -->
     <script src="assets/js/gotur.js"></script>
+    <style>
+        .wa-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            left: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .wa-float:hover {
+            background-color: #128C7E;
+            color: #fff;
+        }
+    </style>
+    <a href="https://wa.me/62811133446?text=Halo%20DD%20Travel,%20saya%20tertarik%20dengan%20layanan%20Umrah%20dan%20Haji,%20Ticketing,%20dan%20Wisata%20Nusantara/Halal." class="wa-float" target="_blank" aria-label="WhatsApp Kami">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 </body>
-
 </html>
