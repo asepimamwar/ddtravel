@@ -18338,3 +18338,12 @@ body.boxed-wrapper .testimonials-three__inner {
   margin-right: -250px;
 }
 /*# sourceMappingURL=gotur.css.map */
+
+.contact-top__item__title {
+    word-wrap: break-word;
+    word-break: break-word;
+    text-align: center;
+}
+.contact-top__item__title a {
+    word-break: break-word;
+}
