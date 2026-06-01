@@ -18347,3 +18347,7 @@ body.boxed-wrapper .testimonials-three__inner {
 .contact-top__item__title a {
     word-break: break-word;
 }
+
+.header-right-sidebar__logo-box img {
+    filter: brightness(0) invert(1);
+}
