@@ -18352,36 +18352,7 @@ body.boxed-wrapper .testimonials-three__inner {
     filter: brightness(0) invert(1) !important;
 }
 
-/* WhatsApp Floating Assistant */
-.floating-wa {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 30px;
-    left: 30px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 35px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-    animation: pulse-wa 2s infinite;
-}
-.floating-wa:hover {
-    background-color: #128C7E;
-    color: #fff;
-    transform: scale(1.1);
-}
-.floating-wa i {
-    margin-top: 2px;
-}
-@keyframes pulse-wa {
-    0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+
     70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
     100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
 }
