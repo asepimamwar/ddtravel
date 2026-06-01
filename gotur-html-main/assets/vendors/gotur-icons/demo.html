@@ -986,9 +986,29 @@
     </div>
 
     <script src="demo-files/demo.js"></script>
-        <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/62811133446?text=Halo%20DD%20Travel,%20saya%20ingin%20bertanya%20seputar%20paket%20travel..." class="floating-wa" target="_blank" aria-label="WhatsApp Us">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+            <!-- Asisten Web Chatbot -->
+    <div id="dd-chatbot-container">
+        <!-- Floating Button -->
+        <div id="dd-chatbot-button" onclick="toggleChat()">
+            <i class="fas fa-comment-dots"></i>
+        </div>
+        
+        <!-- Chat Window -->
+        <div id="dd-chatbot-window">
+            <div class="dd-chatbot-header">
+                <div>
+                    <strong>Asisten DD Travel</strong>
+                    <span class="online-status">● Online</span>
+                </div>
+                <button class="close-btn" onclick="toggleChat()">&times;</button>
+            </div>
+            <div class="dd-chatbot-messages" id="dd-chatbot-messages">
+                <!-- Messages will be appended here via JS -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Chatbot Script -->
+    <script src="assets/js/chatbot.js"></script>
 </body>
 </html>
