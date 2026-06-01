@@ -9,10 +9,10 @@ function toggleChat() {
     
     // Change button icon when open
     if (chatOpen) {
-        button.innerHTML = '<i class="fas fa-times"></i>';
+        button.innerHTML = '<i class="fas fa-times"></i> <span>Tutup</span>';
         button.style.animation = 'none';
     } else {
-        button.innerHTML = '<i class="fas fa-comment-dots"></i>';
+        button.innerHTML = '<i class="fas fa-headset"></i> <span>Asisten DD Travel</span>';
     }
     
     if (chatOpen && !greeted) {
